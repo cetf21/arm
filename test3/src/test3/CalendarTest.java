@@ -10,5 +10,5 @@ public class CalendarTest {
 	    Date date= new Date();
 	    cal.setTime(date);
 	    System.out.println(cal.get(Calendar.HOUR_OF_DAY)*60+cal.get(Calendar.MINUTE));
-	}
+	} 
 }
